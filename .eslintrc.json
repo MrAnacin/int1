@@ -16,7 +16,7 @@
         "kebab-case": ["off"]
     },
     "parserOptions": {
-    "sourceType": "module",
-    "ecmaVersion": 2020
+        "sourceType": "module",
+        "ecmaVersion": 2020
 },
 }
