@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "plugins": ["prettier"],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "requireConfigFile": false,
+        "ecmaVersion": 2020
+    },
+    "rules": {
+        "prettier/prettier": "error",
+        "camelcase": ["error"],
+        "eqeqeq": ["error", "always"],
+        "semi": 0
+    },
+    "ignorePatterns": ["src/types/*", "coverage/*"]
+}
