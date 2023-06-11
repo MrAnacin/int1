@@ -29,7 +29,11 @@
     },
     "devDependencies": {
         "copy-webpack-plugin": "^11.0.0",
+<<<<<<< HEAD
         "css-minimizer-webpack-plugin": "^5.0.0",
+=======
+        "css-loader": "^6.7.3",
+>>>>>>> c6d7b760f1b094190af368a34920574061e95dbb
         "eslint": "^8.35.0",
         "eslint-config-prettier": "^8.6.0",
         "eslint-plugin-prettier": "^4.2.1",
@@ -40,7 +44,11 @@
         "stylelint-config-prettier": "^9.0.4",
         "stylelint-config-standard": "^29.0.0",
         "stylelint-prettier": "^2.0.0",
+<<<<<<< HEAD
         "webpack": "^5.80.0",
+=======
+        "webpack": "^5.81.0",
+>>>>>>> c6d7b760f1b094190af368a34920574061e95dbb
         "webpack-cli": "^5.0.2"
     }
 }
