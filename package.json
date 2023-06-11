@@ -8,7 +8,8 @@
         "start": "http-server -p 3004",
         "format": "prettier --write ./js/",
         "lint:js": "eslint ./js/",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "build": "webpack --mode production"
     },
     "repository": {
         "type": "git",
@@ -23,17 +24,23 @@
     "homepage": "https://github.com/MrAnacin/int1#readme",
     "dependencies": {
         "http-server": "^14.1.1",
-        "lodash": "^4.17.21"
+        "lodash": "^4.17.21",
+        "mini-css-extract-plugin": "^2.7.5"
     },
     "devDependencies": {
+        "copy-webpack-plugin": "^11.0.0",
+        "css-minimizer-webpack-plugin": "^5.0.0",
         "eslint": "^8.35.0",
         "eslint-config-prettier": "^8.6.0",
         "eslint-plugin-prettier": "^4.2.1",
+        "html-webpack-plugin": "^5.5.1",
         "husky": "^8.0.3",
         "prettier": "^2.8.4",
         "stylelint": "^14.16.1",
         "stylelint-config-prettier": "^9.0.4",
         "stylelint-config-standard": "^29.0.0",
         "stylelint-prettier": "^2.0.0",
+        "webpack": "^5.80.0",
+        "webpack-cli": "^5.0.2"
     }
 }
